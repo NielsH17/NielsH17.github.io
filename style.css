@@ -159,7 +159,7 @@
 .image .cart9 {
   position: relative;
   vertical-align: baseline;
-  top: 20px; 
+  top: auto; 
   opacity: 1;
   padding: 4px;
   text-decoration: none;
