@@ -10,9 +10,16 @@
   .header {
     padding: 80px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background-image: url(images/banner.png);
+    color:black;
   }
+
+  .header-content {
+    background-color: rgba(255, 255, 255, 0.9);  
+    padding: 10px;
+    border-radius: 10px;  
+    display: inline-block;  
+}
 
   .header h1 {
     font-size: 40px;
@@ -144,6 +151,12 @@
   padding: 4px;
   text-decoration: none;
 }
+
+.imageCont > img:hover {
+  width: 1000px;
+  height: 400px;
+}
+
 /* ----------------- CART PAGE --------------- */
 
 .container-products {
